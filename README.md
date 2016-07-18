@@ -66,9 +66,9 @@ To train, `cd` into the `cnn-text-classification-tf` directory. Edit lines 34 an
 
 ```
  33     # Load data from files
- 34     positive_examples = list(open("/path/to/positive/examples.txt", "r").readl    ines())
+ 34     positive_examples = list(open("/path/to/positive/examples.txt", "r").readlines())
  35     positive_examples = [s.strip() for s in positive_examples]
- 36     negative_examples = list(open("/path/to/negative/examples.txt", "r").read    lines())
+ 36     negative_examples = list(open("/path/to/negative/examples.txt", "r").readlines())
 ```
 
 In this case, the 'positive' examples would be helpful flags, while the 'negative' examples would be declined flags. After you've done this, run `python train.py`
