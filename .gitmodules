@@ -4,3 +4,7 @@
 [submodule "cnn-text-classification-tf"]
 	path = cnn-text-classification-tf
 	url = https://github.com/Undo1/cnn-text-classification-tf.git
+[submodule "models"]
+	path = models
+	url = https://github.com/JoshData/models.git
+	branch = online-parsing
