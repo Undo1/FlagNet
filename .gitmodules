@@ -1,3 +1,6 @@
 [submodule "parsey-mcparseface-server"]
 	path = parsey-mcparseface-server
 	url = https://github.com/Undo1/parsey-mcparseface-server.git
+[submodule "cnn-text-classification-tf"]
+	path = cnn-text-classification-tf
+	url = https://github.com/Undo1/cnn-text-classification-tf.git
