@@ -1,0 +1,3 @@
+[submodule "parsey-mcparseface-server"]
+	path = parsey-mcparseface-server
+	url = https://github.com/Undo1/parsey-mcparseface-server.git
